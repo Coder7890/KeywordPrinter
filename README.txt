@@ -17,3 +17,27 @@ For Windows users,
 For linux users,
 The steps are same except such that, in step 8, instead of running command, just type command ./run.sh
 (Note: I didn't executed results on linux machine, but guessing shell script would run succesfully)
+
+Sample text files:
+
+input file: test1.txt
+
+# The first test file
+red color
+apple red roundish fruit # Apples are tasty
+onion yellow roundish vegetable
+long shape
+shape .
+banana yellow long fruit
+yellow color
+roundish shape
+fruit food-type
+food-type .
+pear yellow roundish fruit
+corn yellow long vegetable
+color .
+vegetable food-type
+
+output file: test1_output.txt
+shape food-type color red apple onion long banana yellow roundish fruit pear corn vegetable
+
